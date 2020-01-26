@@ -76,7 +76,7 @@ export class CommandVersion {
         features: tobichiMultiPolygonFeatures
       };
 
-      fs.writeFileSync('../out/tobichi_all.geojson', JSON.stringify(resultGeoJson, null, 2));
+      fs.writeFileSync('../out/tobichi_00_all.geojson', JSON.stringify(resultGeoJson, null, 2));
 
     } catch (error) {
       console.error('shp() error', error);
