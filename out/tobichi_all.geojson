@@ -13,8 +13,8 @@
         "adm_code": "42207",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#e459f9",
-        "stroke": "#e459f9"
+        "fill": "#0a6266",
+        "stroke": "#0a6266"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1638,8 +1638,8 @@
         "adm_code": "42212",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#ea3c9f",
-        "stroke": "#ea3c9f"
+        "fill": "#350491",
+        "stroke": "#350491"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2863,8 +2863,8 @@
         "adm_code": "42213",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#aa402e",
-        "stroke": "#aa402e"
+        "fill": "#1c7a04",
+        "stroke": "#1c7a04"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3548,8 +3548,8 @@
         "adm_code": "43212",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#2ed82b",
-        "stroke": "#2ed82b"
+        "fill": "#9b0f49",
+        "stroke": "#9b0f49"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4613,8 +4613,8 @@
         "adm_code": "46201",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#d8c620",
-        "stroke": "#d8c620"
+        "fill": "#084a7f",
+        "stroke": "#084a7f"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6282,8 +6282,8 @@
         "adm_code": "46206",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#2dc9ce",
-        "stroke": "#2dc9ce"
+        "fill": "#072266",
+        "stroke": "#072266"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6947,8 +6947,8 @@
         "adm_code": "46221",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#194387",
-        "stroke": "#194387"
+        "fill": "#2d067c",
+        "stroke": "#2d067c"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7830,8 +7830,8 @@
         "adm_code": "46222",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#9c2dd8",
-        "stroke": "#9c2dd8"
+        "fill": "#e00fd5",
+        "stroke": "#e00fd5"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9179,8 +9179,8 @@
         "adm_code": "46468",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#5fd8be",
-        "stroke": "#5fd8be"
+        "fill": "#190263",
+        "stroke": "#190263"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9766,8 +9766,8 @@
         "adm_code": "47208",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#8ed14b",
-        "stroke": "#8ed14b"
+        "fill": "#15097c",
+        "stroke": "#15097c"
       },
       "geometry": {
         "type": "MultiPolygon",
