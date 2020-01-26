@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "name": "Debug",
+    "type": "node",
+    "request": "launch",
+    "protocol": "inspector",
+    "cwd": "${workspaceRoot}",
+    "program": "${workspaceFolder}/node_modules/ts-node/dist/bin.js",
+    "args": [
+      "./src/index.ts",
+      "version"
+    ],
+    "useWSL": false,
+  }]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@amay/my-great-cli",
+  "version": "0.1.1",
+  "description": "Command Line Interface for my great service",
+  "author": "amay077",
+  "license": "MIT",
+  "scripts": {
+    "debug": "bash -c echo 'HELLO'",
+    "prepare": "tsc",
+    "build": "tsc",
+    "version": "ts-node ./src/index.ts -- version",
+    "exec": "ts-node ./src/index.ts"
+  },
+  "bin": {
+    "my-great": "build/index.js"
+  },
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0",
+    "fs-extra": "^7.0.1",
+    "randomcolor": "^0.5.4",
+    "shpjs": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.1",
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.7.3"
+  }
+}

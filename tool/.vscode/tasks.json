@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile",
+      "type": "shell",
+      "command": "tsc && webpack --config webpack.dev.js",
+    },
+    {
+      "label": "build-debug",
+      "type": "shell",
+      "command": "tsc -b",
+    },
+    {
+      "label": "build-debug-wsl",
+      "type": "shell",
+      "command": "tsc -b",
+      "options": {
+        "shell": {
+          "executable": "C:\\Windows\\System32\\wsl.exe",
+          "args": [ "bash -ic" ]
+        }
+      },
+    }
+  ]
+}
