@@ -44,7 +44,7 @@ export class CommandVersion {
 
       const colors = randomColor({
         luminosity: 'dark',
-        count: 20
+        count: 100
       });
 
       const tobichiMultiPolygonFeatures = Array.from(tobichiFeatures.reduce((pre, cur) => {
