@@ -42,6 +42,11 @@ export class CommandVersion {
         i++;
       }
 
+      const colors = randomColor({
+        luminosity: 'light',
+        count: 20
+      });
+
       const tobichiMultiPolygonFeatures = Array.from(tobichiFeatures.reduce((pre, cur) => {
         const arr = pre.get(cur.properties.adm_code);
         if (arr != null) {
@@ -53,17 +58,13 @@ export class CommandVersion {
 
         return pre;
       }, new Map<string, Feature[]>()).values())
-      .map(features => {
+      .map((features, index) => {
         const mainF = features.find(f => f.properties.pop >= 0);
 
         const multiCoordinates = features.map(f => (f.geometry as Geometry).coordinates) as Position[][][];
         const multiPolygonF = turf.multiPolygon(multiCoordinates, mainF.properties);
-
-        const color = randomColor({
-          luminosity: 'light',
-          count: 20
-        });
        
+        const color = colors[index % colors.length];
         multiPolygonF.properties.fill = color;
         multiPolygonF.properties.stroke = color;
 
