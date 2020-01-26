@@ -61,7 +61,7 @@ export class CommandVersion {
 
         const color = randomColor({
           luminosity: 'light',
-          count: tobichiFeatures.length
+          count: 20
         });
        
         multiPolygonF.properties.fill = color;
