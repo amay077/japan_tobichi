@@ -60,7 +60,7 @@ export class CommandVersion {
         const multiPolygonF = turf.multiPolygon(multiCoordinates, mainF.properties);
 
         const color = randomColor({
-          luminosity: 'bright',
+          luminosity: 'light',
           count: tobichiFeatures.length
         });
        
