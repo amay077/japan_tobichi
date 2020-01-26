@@ -19,7 +19,7 @@ export class CommandVersion {
 
       const targetFeatures: Feature[] = geoJson.features
         // .filter(f => f.properties.adm_code === '19364' || f.properties.adm_code === '19365');
-        .filter(f => f.properties.adm_code.startsWith('4'))
+        // .filter(f => f.properties.adm_code.startsWith('4'))
         ;
 
       const mainFeatures = targetFeatures.filter(f => f.properties.pop >= 0);
