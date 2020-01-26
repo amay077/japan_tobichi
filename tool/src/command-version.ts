@@ -43,7 +43,7 @@ export class CommandVersion {
       }
 
       const colors = randomColor({
-        luminosity: 'light',
+        luminosity: 'bright',
         count: 20
       });
 
