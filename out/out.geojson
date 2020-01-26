@@ -4,6 +4,7 @@
     {
       "type": "Feature",
       "properties": {
+        "fill": "#FF0000",
         "f_code": "FA001",
         "coc": "JPN",
         "nam": "Nagasaki Ken",
