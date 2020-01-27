@@ -8,7 +8,7 @@
     "debug": "bash -c echo 'HELLO'",
     "prepare": "tsc",
     "build": "tsc",
-    "run": "ts-node ./src/index.ts"
+    "exec": "ts-node ./src/index.ts"
   },
   "dependencies": {
     "@turf/turf": "^5.1.6",

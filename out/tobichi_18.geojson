@@ -822,13 +822,13 @@
         "adm_code": "18442",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#c64200",
-        "stroke": "#c64200",
+        "fill": "#ce0060",
+        "stroke": "#ce0060",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#c64200",
-        "_color": "#c64200"
+        "_fillColor": "#ce0060",
+        "_color": "#ce0060"
       }
     },
     {
@@ -892,13 +892,13 @@
         "adm_code": "18442",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#c64200",
-        "stroke": "#c64200",
+        "fill": "#ce0060",
+        "stroke": "#ce0060",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#c64200",
-        "_color": "#c64200",
+        "_fillColor": "#ce0060",
+        "_color": "#ce0060",
         "area": 91436.40011835676
       }
     },
@@ -975,13 +975,13 @@
         "adm_code": "18442",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#c64200",
-        "stroke": "#c64200",
+        "fill": "#ce0060",
+        "stroke": "#ce0060",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#c64200",
-        "_color": "#c64200",
+        "_fillColor": "#ce0060",
+        "_color": "#ce0060",
         "area": 148497.06776182598
       }
     },
@@ -1654,13 +1654,13 @@
         "adm_code": "18483",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#049e1e",
-        "stroke": "#049e1e",
+        "fill": "#3d8403",
+        "stroke": "#3d8403",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#049e1e",
-        "_color": "#049e1e"
+        "_fillColor": "#3d8403",
+        "_color": "#3d8403"
       }
     },
     {
@@ -1916,13 +1916,13 @@
         "adm_code": "18483",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#049e1e",
-        "stroke": "#049e1e",
+        "fill": "#3d8403",
+        "stroke": "#3d8403",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#049e1e",
-        "_color": "#049e1e",
+        "_fillColor": "#3d8403",
+        "_color": "#3d8403",
         "area": 14983058.241055619
       }
     }

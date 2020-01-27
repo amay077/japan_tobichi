@@ -354,13 +354,13 @@
         "adm_code": "27208",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#082777",
-        "stroke": "#082777",
+        "fill": "#c90a70",
+        "stroke": "#c90a70",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#082777",
-        "_color": "#082777"
+        "_fillColor": "#c90a70",
+        "_color": "#c90a70"
       }
     },
     {
@@ -408,13 +408,13 @@
         "adm_code": "27208",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#082777",
-        "stroke": "#082777",
+        "fill": "#c90a70",
+        "stroke": "#c90a70",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#082777",
-        "_color": "#082777",
+        "_fillColor": "#c90a70",
+        "_color": "#c90a70",
         "area": 62985.361229434195
       }
     }

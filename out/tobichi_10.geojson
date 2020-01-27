@@ -1098,13 +1098,13 @@
         "adm_code": "10202",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#0ba340",
-        "stroke": "#0ba340",
+        "fill": "#0d7693",
+        "stroke": "#0d7693",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#0ba340",
-        "_color": "#0ba340"
+        "_fillColor": "#0d7693",
+        "_color": "#0d7693"
       }
     },
     {
@@ -1208,13 +1208,13 @@
         "adm_code": "10202",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#0ba340",
-        "stroke": "#0ba340",
+        "fill": "#0d7693",
+        "stroke": "#0d7693",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#0ba340",
-        "_color": "#0ba340",
+        "_fillColor": "#0d7693",
+        "_color": "#0d7693",
         "area": 3699379.14514251
       }
     },
@@ -1727,13 +1727,13 @@
         "adm_code": "10203",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#3b8400",
-        "stroke": "#3b8400",
+        "fill": "#d31370",
+        "stroke": "#d31370",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#3b8400",
-        "_color": "#3b8400"
+        "_fillColor": "#d31370",
+        "_color": "#d31370"
       }
     },
     {
@@ -2285,13 +2285,13 @@
         "adm_code": "10203",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#3b8400",
-        "stroke": "#3b8400",
+        "fill": "#d31370",
+        "stroke": "#d31370",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#3b8400",
-        "_color": "#3b8400",
+        "_fillColor": "#d31370",
+        "_color": "#d31370",
         "area": 138857922.02917793
       }
     }
