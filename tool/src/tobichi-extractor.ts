@@ -17,7 +17,7 @@ export class TobichiExtractor {
       const buf = fs.readFileSync(Path.resolve(__dirname, '../assets/polbnda_jpn.zip'));
       const geoJson = await shp(buf);
 
-      const targetFeatures: Feature[] = geoJson.features
+      const sourceFeatures: Feature[] = geoJson.features
         // .filter(f => f.properties.adm_code.startsWith('01')) // 北海道のみ
         ;
 
@@ -26,8 +26,8 @@ export class TobichiExtractor {
       // NOTE https://github.com/globalmaps/specifications/blob/master/README.md 
       //      -> gmspec-x.x.pdf -> Boundaries -> Population 
       //      を参考に pop がプラス値は本体のポリゴンと判定。
-      const mainFeatures = targetFeatures.filter(f => f.properties.pop >= 0);
-      const subFeatures = targetFeatures.filter(f => f.properties.pop < 0);
+      const mainFeatures = sourceFeatures.filter(f => f.properties.pop >= 0);
+      const subFeatures = sourceFeatures.filter(f => f.properties.pop < 0);
 
       let i = 0;
       const count = subFeatures.length;
