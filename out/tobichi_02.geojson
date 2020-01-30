@@ -743,13 +743,13 @@
         "salb": "UNK",
         "soc": "JPN",
         "_no": 225,
-        "fill": "#110689",
-        "stroke": "#110689",
+        "fill": "#e5a110",
+        "stroke": "#e5a110",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#110689",
-        "_color": "#110689"
+        "_fillColor": "#e5a110",
+        "_color": "#e5a110"
       }
     },
     {
@@ -1118,13 +1118,13 @@
         "salb": "UNK",
         "soc": "JPN",
         "_no": 224,
-        "fill": "#110689",
-        "stroke": "#110689",
+        "fill": "#e5a110",
+        "stroke": "#e5a110",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#110689",
-        "_color": "#110689",
+        "_fillColor": "#e5a110",
+        "_color": "#e5a110",
         "area": 111781059.98328449
       }
     },
@@ -1554,13 +1554,13 @@
         "salb": "UNK",
         "soc": "JPN",
         "_no": 237,
-        "fill": "#0a4087",
-        "stroke": "#0a4087",
+        "fill": "#890b15",
+        "stroke": "#890b15",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#0a4087",
-        "_color": "#0a4087"
+        "_fillColor": "#890b15",
+        "_color": "#890b15"
       }
     },
     {
@@ -1909,13 +1909,13 @@
         "salb": "UNK",
         "soc": "JPN",
         "_no": 236,
-        "fill": "#0a4087",
-        "stroke": "#0a4087",
+        "fill": "#890b15",
+        "stroke": "#890b15",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#0a4087",
-        "_color": "#0a4087",
+        "_fillColor": "#890b15",
+        "_color": "#890b15",
         "area": 65459906.15105003
       }
     },
@@ -2413,13 +2413,13 @@
         "salb": "UNK",
         "soc": "JPN",
         "_no": 248,
-        "fill": "#1a0766",
-        "stroke": "#1a0766",
+        "fill": "#ed0273",
+        "stroke": "#ed0273",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#1a0766",
-        "_color": "#1a0766"
+        "_fillColor": "#ed0273",
+        "_color": "#ed0273"
       }
     },
     {
@@ -2908,13 +2908,13 @@
         "salb": "UNK",
         "soc": "JPN",
         "_no": 247,
-        "fill": "#1a0766",
-        "stroke": "#1a0766",
+        "fill": "#ed0273",
+        "stroke": "#ed0273",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#1a0766",
-        "_color": "#1a0766",
+        "_fillColor": "#ed0273",
+        "_color": "#ed0273",
         "area": 64677170.57548036
       }
     }
