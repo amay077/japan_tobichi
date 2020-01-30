@@ -822,13 +822,14 @@
         "adm_code": "18442",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#ce0060",
-        "stroke": "#ce0060",
+        "_no": 1018,
+        "fill": "#01396d",
+        "stroke": "#01396d",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#ce0060",
-        "_color": "#ce0060"
+        "_fillColor": "#01396d",
+        "_color": "#01396d"
       }
     },
     {
@@ -892,13 +893,14 @@
         "adm_code": "18442",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#ce0060",
-        "stroke": "#ce0060",
+        "_no": 1019,
+        "fill": "#01396d",
+        "stroke": "#01396d",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#ce0060",
-        "_color": "#ce0060",
+        "_fillColor": "#01396d",
+        "_color": "#01396d",
         "area": 91436.40011835676
       }
     },
@@ -975,13 +977,14 @@
         "adm_code": "18442",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#ce0060",
-        "stroke": "#ce0060",
+        "_no": 1020,
+        "fill": "#01396d",
+        "stroke": "#01396d",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#ce0060",
-        "_color": "#ce0060",
+        "_fillColor": "#01396d",
+        "_color": "#01396d",
         "area": 148497.06776182598
       }
     },
@@ -1654,13 +1657,14 @@
         "adm_code": "18483",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#3d8403",
-        "stroke": "#3d8403",
+        "_no": 1023,
+        "fill": "#3a019b",
+        "stroke": "#3a019b",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#3d8403",
-        "_color": "#3d8403"
+        "_fillColor": "#3a019b",
+        "_color": "#3a019b"
       }
     },
     {
@@ -1916,13 +1920,14 @@
         "adm_code": "18483",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#3d8403",
-        "stroke": "#3d8403",
+        "_no": 1022,
+        "fill": "#3a019b",
+        "stroke": "#3a019b",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#3d8403",
-        "_color": "#3d8403",
+        "_fillColor": "#3a019b",
+        "_color": "#3a019b",
         "area": 14983058.241055619
       }
     }

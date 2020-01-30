@@ -810,13 +810,14 @@
         "adm_code": "09204",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#c68709",
-        "stroke": "#c68709",
+        "_no": 556,
+        "fill": "#4f0b9e",
+        "stroke": "#4f0b9e",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#c68709",
-        "_color": "#c68709"
+        "_fillColor": "#4f0b9e",
+        "_color": "#4f0b9e"
       }
     },
     {
@@ -884,13 +885,14 @@
         "adm_code": "09204",
         "salb": "UNK",
         "soc": "JPN",
-        "fill": "#c68709",
-        "stroke": "#c68709",
+        "_no": 557,
+        "fill": "#4f0b9e",
+        "stroke": "#4f0b9e",
         "_opacity": 1,
         "_weight": 3,
         "_fillOpacity": 0.2,
-        "_fillColor": "#c68709",
-        "_color": "#c68709",
+        "_fillColor": "#4f0b9e",
+        "_color": "#4f0b9e",
         "area": 1322836.344010593
       }
     }

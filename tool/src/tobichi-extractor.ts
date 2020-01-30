@@ -18,8 +18,12 @@ export class TobichiExtractor {
       const geoJson = await shp(buf);
 
       const sourceFeatures: Feature[] = geoJson.features
-        // .filter(f => f.properties.adm_code.startsWith('4')) // 北海道のみ
-        ;
+        // .filter(f => f.properties.adm_code.startsWith('01')) // 北海道のみ
+        .filter(f => f.properties.pop != -99999999) // UNKNOWN は除外
+        .map((f, index) => {
+          f.properties._no = index; 
+          return f;
+        });
 
       // 市区町村の本体ポリゴンのみのリストと
       // 市区町村のサブポリゴンのみのリストを生成
@@ -35,11 +39,14 @@ export class TobichiExtractor {
         i++;
         console.log(`${i} / ${count} polygons processing...`);
 
-        // サブポリゴンが、他の本体ポリゴンとくっついているなら「飛び地」とする。
-        // くっついていないならそれはたぶん「島」。
-        return mainFeatures.find(outerF => {
+        // 他のどのポリゴンとも接していないポリゴンは
+        // 「島」とみなし除外する
+        return sourceFeatures.find(outerF => {
+          if (outerF.properties._no === subF.properties._no) {
+            return false;
+          }
           return !turf.booleanDisjoint(outerF, subF);
-        });
+        }) != null;
       });
 
       // Github geojson のためにランダム色を生成
@@ -51,16 +58,13 @@ export class TobichiExtractor {
 
       // １つの市区町村につき複数の飛び地があるかも知れないので、
       // 一旦、 <市区町村コード, [ポリゴン]> の Map にまとめる
-      const admCodeFeaturesMap = tobichiSubFeatures.reduce((pre, cur) => {
-        const arr = pre.get(cur.properties.adm_code);
-        if (arr != null) {
-          pre.set(cur.properties.adm_code, [...arr, cur]);
-        } else {
-          const mainF = mainFeatures.find(f => f.properties.adm_code === cur.properties.adm_code);
-          pre.set(cur.properties.adm_code, [mainF, cur]);
+      let admCodeFeaturesMap = mainFeatures.reduce((map, mainF) => {
+        const tobichs = tobichiSubFeatures.filter(f => f.properties.adm_code === mainF.properties.adm_code);
+        if (tobichs.length > 0) {
+          map.set(mainF.properties.adm_code, [mainF, ...tobichs]);
         }
 
-        return pre;
+        return map;
       }, new Map<string, Feature[]>());
 
       const tobichiWithMainFeatures = Array.from(admCodeFeaturesMap.values())
@@ -132,16 +136,16 @@ export class TobichiExtractor {
     const tobichiNumPerPref = Enumerable.from(Array.from(admCodeFeaturesMap.entries())).select(([admCode, features]) => {
       return {
         admCode: admCode,
-        featureNum: features.length
+        numSubFeature: features.length - 1
       }
     })
     .groupBy(x => x.admCode.substring(0, 2))
-    .select(g =>  ({ pref: g.key(), featureNum: g.sum(x => x.featureNum)}))
-    .orderByDescending(x => x.featureNum)
+    .select(g =>  ({ pref: g.key(), numSubFeature: g.sum(x => x.numSubFeature)}))
+    .orderByDescending(x => x.numSubFeature)
     .toArray();
     console.log(`Tobichi num per pref --`);
     tobichiNumPerPref.forEach((x, index) => {
-      console.log(`${index+1}. ${x.pref} - ${x.featureNum} tobichis`);
+      console.log(`${index+1}. ${x.pref} - ${x.numSubFeature} tobichis`);
     });
 
     // 面積最大最小
@@ -164,13 +168,13 @@ export class TobichiExtractor {
     // 飛び地数最多
     const featureWithNumTobichis = Enumerable.from(Array.from(admCodeFeaturesMap.entries())).select(([admCode, features]) => ({
       properties: features[0].properties,
-      numFeatures: features.length
+      numSubFeatures: features.length - 1
     }))
-    .orderByDescending(x => x.numFeatures)
+    .orderByDescending(x => x.numSubFeatures)
     .take(3);
     console.log(`Num tobichi-max --`);
     featureWithNumTobichis.toArray().forEach((f, index) => {
-      console.log(`${index+1}. ${f.properties.adm_code}/${f.properties.nam}/${f.properties.laa} - ${f.numFeatures} tobichis`);
+      console.log(`${index+1}. ${f.properties.adm_code}/${f.properties.nam}/${f.properties.laa} - ${f.numSubFeatures} tobichis`);
     });
 
     // 本体との距離
